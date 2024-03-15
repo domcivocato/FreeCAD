@@ -54,6 +54,7 @@ OpenSCAD_rc.py
 tags
 /CMakeUserPresets.json
 Testing
+Temp
 
 # crowdin file
 src/Tools/freecad.zip

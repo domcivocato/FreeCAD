@@ -3,11 +3,14 @@ target_sources(
     Part_tests_run
         PRIVATE
             ${CMAKE_CURRENT_SOURCE_DIR}/Attacher.cpp
+            ${CMAKE_CURRENT_SOURCE_DIR}/AttachExtension.cpp
             ${CMAKE_CURRENT_SOURCE_DIR}/BRepMesh.cpp
             ${CMAKE_CURRENT_SOURCE_DIR}/FeatureChamfer.cpp
             ${CMAKE_CURRENT_SOURCE_DIR}/FeatureCompound.cpp
             ${CMAKE_CURRENT_SOURCE_DIR}/FeatureExtrusion.cpp
             ${CMAKE_CURRENT_SOURCE_DIR}/FeatureFillet.cpp
+            ${CMAKE_CURRENT_SOURCE_DIR}/FeatureMirroring.cpp
+            ${CMAKE_CURRENT_SOURCE_DIR}/FeatureOffset.cpp
             ${CMAKE_CURRENT_SOURCE_DIR}/FeaturePartBoolean.cpp
             ${CMAKE_CURRENT_SOURCE_DIR}/FeaturePartCommon.cpp
             ${CMAKE_CURRENT_SOURCE_DIR}/FeaturePartCut.cpp
